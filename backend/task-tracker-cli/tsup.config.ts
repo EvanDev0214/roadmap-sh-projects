@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsup'
+import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -6,5 +6,5 @@ export default defineConfig({
   target: 'es2023',
   splitting: false,
   sourcemap: false,
-  clean: true,
-})
+  clean: true
+});
