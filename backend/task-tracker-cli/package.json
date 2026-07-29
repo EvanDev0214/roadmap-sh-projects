@@ -1,0 +1,33 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "A CLI app for tracking and managing your task list",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsup",
+    "lint": "eslint .",
+    "check-types": "tsc --noEmit"
+  },
+  "bin": {
+    "task-cli": "dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "task"
+  ],
+  "author": "Evan",
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@stylistic/eslint-plugin": "5.10.0",
+    "@types/node": "26.1.2",
+    "eslint": "10.8.0",
+    "globals": "17.8.0",
+    "tsup": "8.5.1",
+    "tsx": "4.23.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.65.0"
+  }
+}
