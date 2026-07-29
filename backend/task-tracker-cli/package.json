@@ -9,10 +9,10 @@
     "dev": "tsx src/index.ts",
     "build": "tsup",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "check-types": "tsc --noEmit"
   },
   "bin": {
-    "task-tracker-cli": "dist/index.js"
+    "task-cli": "dist/index.js"
   },
   "keywords": [
     "cli",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",
+    "@types/node": "26.1.2",
     "eslint": "10.8.0",
     "globals": "17.8.0",
     "tsup": "8.5.1",
